@@ -1,0 +1,11 @@
+
+
+Question 1: X includes variables that should be excluded: -4,
+ One-hot encoding not applied through a full ColumnTransformer; categorical variables were manually encoded and then passed into a pipeline with only a regressor: -3.
+Metrics computed correctly, but explanation is very minimal: -1,
+CV executed correctly, but no meaningful interpretation included: -1,
+Best params printed, but scoring and model retrieval incomplete: -2
+Question 2: Very limited comparison/interpretation: -2
+Question 3: KNN pipeline incomplete: categorical preprocessing missing; numeric scaling missing: -4,
+Accuracy evaluated but missing classification report + required 7-metric interpretation: -4
+Total: 79/100
